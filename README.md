@@ -1,3 +1,5 @@
+
+
 # Smatable
 
 ![Gesture Recognition](https://img.shields.io/badge/Swipe--Gesture%20Recognition-Tap--Direction-critical) ![FPGA](https://img.shields.io/badge/FPGA-AMD%20Spartan--7-blue) ![Quantization](https://img.shields.io/badge/Quantization-Integer--Only-green) ![Model](https://img.shields.io/badge/Model-1D--CNN%20%7C%201D--SepCNN-success)
@@ -115,12 +117,12 @@ bash scripts/exp3/1DCNN_AOS.sh
 
 This work is a collaboration between two institutions:
 
-**🇯🇵 NARA Institute of Science and Technology (Nara, Japan)**
+**🇯🇵 NARA Institute of Science and Technology(NAIST), Nara, Japan**
 Prof.Dr.Keiichi Yasumoto, Prof.Dr.Tomokazu Matsui, Prof.Dr.Hirohiko Suwa, B.Sc.Koki Shibata, 
 - Original Smatable system design
 - Sensor data collection and dataset preparation
 
-**🇩🇪 University of Duisburg-Essen (Duisburg, Germany)**
+**🇩🇪 University of Duisburg-Essen(UDE), Duisburg, Germany**
 Prof.Dr.Gregor Schiele, M.Sc.Tianheng Ling, M.Sc.Chao Qian, 
 - Model redesign, compression and quantization
 - FPGA implementation and deployment optimization
@@ -142,9 +144,11 @@ This work is supported by the German Federal Ministry for Economic Affairs and C
 ---
 
 #### Related Repositories
-Explore other FPGA-deployable time-series models from our UDE IES group:
+Explore other FPGA-deployable time-series models from our UDE intelligent embedded system chair:
 
-- **OnDeviceSoftSensorMLPs** → [GitHub Repository](https://github.com/tianheng-ling/OnDeviceSoftSensorMLP)  
-- **OnDeviceLSTM** → [GitHub Repository](https://github.com/tianheng-ling/EdgeOverflowForecast)
-- **OnDeviceTransformer** → [GitHub Repository](https://github.com/tianheng-ling/TinyTransformer4TS)
-- **OnDeviceRunningGaitRecognition** → [GitHub Repository](https://github.com/tianheng-ling/StrikeWatch)
+- **OnDevice-MLP** → [GitHub Repository](https://github.com/tianheng-ling/OnDeviceSoftSensorMLP)  
+- **OnDevice-LSTM** → [GitHub Repository](https://github.com/tianheng-ling/EdgeOverflowForecast)
+- **OnDevice-Transformer** → [GitHub Repository](https://github.com/tianheng-ling/TinyTransformer4TS)
+- **OnDevice-1D(Sep)CNN** → [GitHub Repository](https://github.com/tianheng-ling/Smatable)
+- **OnDevice Running Gait Recognition** → [GitHub Repository](https://github.com/tianheng-ling/StrikeWatch)
+
