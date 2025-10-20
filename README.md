@@ -56,8 +56,7 @@ The **Smatable** dataset enables swipe gesture recognition on ordinary furniture
 - Each session: 4 swipe directions × 10 trials = 40 recordings
 - We additionally augmented them to 400 samples/session using sliding-window downsampling
 
-The dataset can be downloaded from Zenodo into the `data/wav/` directory:
-👉 [Download link will be provided here]
+The dataset can be downloaded from Zenodo into the `data/wav/` directory: 👉 [Download link](https://zenodo.org/records/17275491)
 
 If you use this dataset, please cite:
 ```bibtex
