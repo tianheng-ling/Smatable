@@ -179,7 +179,7 @@ def objective(trial, args):
                                 # === Add Energy Condition ===
                                 if (
                                     hw_metrics["energy(mJ)"] is None
-                                    or float(hw_metrics["energy(muJ)"])
+                                    or float(hw_metrics["energy(mJ)"])
                                     > ENERGY_THRESHOLD
                                 ):
                                     print("[PRUNE] Energy info is not available")

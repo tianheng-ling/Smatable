@@ -32,4 +32,4 @@ aos_acc_thresholds = {
 STOP_TIME = "100ms"  # for better HCI
 LATENCY_THRESHOLD = 100  # ms
 POWER_THRESHOLD = 500  # mW
-ENERGY_THRESHOLD = 100  # muJ
+ENERGY_THRESHOLD = 50  # mJ
