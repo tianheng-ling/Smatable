@@ -14,7 +14,7 @@ To enrich the dataset, we apply **sliding-window augmentation with fractional of
 
 ####  Data Splits
 
-We adopt the three evaluation protocols from the original paper:
+We adopt the three evaluation protocols from the original paper. The specific session assignments for each split are defined in [`get_data.py`](./get_data.py).
 
 1. **Per-Subject (PS)**  
    Each target (person/table) is split independently: 6 sessions for training, 3 for testing.
@@ -25,12 +25,14 @@ We adopt the three evaluation protocols from the original paper:
 3. **Add-One-Session (AOS)**  
    One session from the held-out target is included in training, reflecting few-shot personalization.
 
+For the exact session IDs used in each configuration, refer to the implementation in [`get_data.py`](./get_data.py).
+
 ---
 
 ####  📦 Download
 
 The dataset can be downloaded from **Zenodo** into the `data/wav/` directory:  
-👉 _[Download link will be provided here]_  
+👉 [Download link](https://zenodo.org/records/17275491)
 
 ---
 
