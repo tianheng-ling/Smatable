@@ -12,9 +12,9 @@ search_space = {
 }
 
 ps_acc_thresholds = {
-    8: 0.10,
-    6: 0.15,
-    4: 0.10,
+    8: 0.80,
+    6: 0.75,
+    4: 0.70,
 }
 
 loso_acc_thresholds = {
