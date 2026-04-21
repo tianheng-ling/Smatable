@@ -33,18 +33,17 @@ Our enhancements include:
 (4) We extend a hardware-aware search framework to support constraint-driven model configuration selection, considering accuracy, deployability, latency, and energy consumption.
 Evaluated on two swipe-direction datasets with multiple persons and ordinary tables, our approach achieves low-latency, energy-efficient inference on the AMD Spartan-7 XC7S25 FPGA. Under the PS data splitting setting, the selected 6-bit 1D-CNN reaches 0.970 average accuracy across persons with 9.22 ms latency. The chosen 8-bit 1D-SepCNN further reduces latency to 6.83 ms (over 53x CPU speedup) with slightly lower accuracy (0.949). Both consume under 1.2 mJ per inference, demonstrating suitability for long-term edge operation.
 
-If you use the released code, please consider citing our work:
+If you use the released code, please consider citing our [work](https://arxiv.org/abs/2510.23156):
 
 ```bibtex
-@inproceedings{ling2025smatable,
-  title     = {Enabling Vibration-Based Gesture Recognition on Everyday Furniture via Energy-Efficient FPGA Implementation of 1D Convolutional Networks},
-  author    = {Shibata, Koki and Ling, Tianheng and Qian, Chao and Matsui,Tomokazu and Suwa, Hirohiko and Yasumoto, Keiichi and Schiele, Gregor},
-  booktitle = {Proceedings of the IEEE Annual Congress on Artificial Intelligence of Things (AIoT)},
-  year      = {2025},
-  location  = {Osaka, Japan},
-  note      = {To appear},
-  url       = {https://arxiv.org/abs/YYYY}
-}
+@INPROCEEDINGS{11416372,
+  author={Shibata, Koki and Ling, Tianheng and Qian, Chao and Matsui, Tomokazu and Suwa, Hirohiko and Yasumoto, Keiichi and Schiele, Gregor},
+  booktitle={2025 IEEE Annual Congress on Artificial Intelligence of Things (AIoT)}, 
+  title={Enabling Vibration-Based Gesture Recognition on Everyday Furniture via Energy-Efficient FPGA Implementation of 1D Convolutional Networks}, 
+  year={2025},
+  pages={373-381},
+  doi={10.1109/AIoT66900.2025.00061}}
+
 ```
 
 ---
@@ -116,13 +115,13 @@ bash scripts/exp3/1DCNN_AOS.sh
 
 This work is a collaboration between two institutions:
 
-**🇯🇵 NARA Institute of Science and Technology(NAIST), Nara, Japan**
-Prof.Dr.Keiichi Yasumoto, Prof.Dr.Tomokazu Matsui, Prof.Dr.Hirohiko Suwa, B.Sc.Koki Shibata, 
+**🇯🇵 Ubiquitous Computing Systems Lab, NARA Institute of Science and Technology (NAIST), Nara, Japan**
+Prof. Dr. Keiichi Yasumoto, Prof. Dr. Tomokazu Matsui, Prof. Dr. Hirohiko Suwa, B. Sc. Koki Shibata, 
 - Original Smatable system design
 - Sensor data collection and dataset preparation
 
-**🇩🇪 University of Duisburg-Essen(UDE), Duisburg, Germany**
-Prof.Dr.Gregor Schiele, M.Sc.Tianheng Ling, M.Sc.Chao Qian, 
+**🇩🇪 Intelligent Embedded Systems Lab, University of Duisburg-Essen (UDE), Duisburg, Germany**
+Prof. Dr. Gregor Schiele, M. Sc. Tianheng Ling, M. Sc. Chao Qian, 
 - Model redesign, compression and quantization
 - FPGA implementation and deployment optimization
 
@@ -132,7 +131,7 @@ Prof.Dr.Gregor Schiele, M.Sc.Tianheng Ling, M.Sc.Chao Qian,
 #### Contact
 We welcome feedback and collaboration inquiries. For questions regarding:
 - Data collection & application →  📧 [Koki Shibata](koki.shibata@ubi-lab.com)
-- Model redesign, compression and quantization  →  📧 [Tianheng Ling](tianheng.ling@uni-due.de)
+- Model redesign, compression and quantization  →  📧 [Tianheng Ling](ling.tianheng@gmail.com)
 - Hardware & deployment →  📧 [Chao Qian](chao.qian@uni-due.de)
 
 ---
@@ -145,9 +144,9 @@ This work is supported by the German Federal Ministry for Economic Affairs and C
 #### Related Repositories
 Explore other FPGA-deployable time-series models from our UDE intelligent embedded system chair:
 
-- **OnDevice-MLP** → [GitHub Repository](https://github.com/tianheng-ling/OnDeviceSoftSensorMLP)  
-- **OnDevice-LSTM** → [GitHub Repository](https://github.com/tianheng-ling/EdgeOverflowForecast)
-- **OnDevice-Transformer** → [GitHub Repository](https://github.com/tianheng-ling/TinyTransformer4TS)
-- **OnDevice-1D(Sep)CNN** → [GitHub Repository](https://github.com/tianheng-ling/Smatable)
-- **OnDevice Running Gait Recognition** → [GitHub Repository](https://github.com/tianheng-ling/StrikeWatch)
+- **On Device Flow Rate Forefasting with MLPs** → [GitHub Repository](https://github.com/tianheng-ling/OnDeviceSoftSensorMLP) 
+- **On Device Sewage Overflow Forefasting with Transforemrs and LSTMs** → [GitHub Repository](https://github.com/tianheng-ling/EdgeOverflowForecast)
+- **On Device Transformers across various time-series analysis tasks** → [GitHub Repository](https://github.com/tianheng-ling/TinyTransformer4TS) 
+- **On Device Swipe Direction Recognition with 1D(Sep)CNNs** → [GitHub Repository](https://github.com/tianheng-ling/Smatable)
+- **On Device Running Gait Recognition with various time-series models** → [GitHub Repository](https://github.com/tianheng-ling/StrikeWatch)
 
